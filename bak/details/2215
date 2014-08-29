@@ -1,0 +1,83 @@
+{
+  "label": "LPL Summer Top 4 - Finals",
+  "body": [
+    {
+      "bodyTime": "2014-08-19T23:00:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Top 4",
+  "leagueColor": "#666666",
+  "tbdTime": "0",
+  "blockId": "2215",
+  "dateTime": "2014-08-21T08:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": "8257113:37560166:37560167",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game3": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1847",
+          "id": "3927"
+        },
+        "game2": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1847",
+          "id": "3926"
+        },
+        "game1": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "685",
+          "id": "3925"
+        },
+        "game0": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1847",
+          "id": "3913"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 29,
+          "wins": 16,
+          "acronym": "OMG",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/OMG2.png?itok=rlcFc4dM",
+          "name": "OMG",
+          "id": "685"
+        },
+        "blue": {
+          "losses": 23,
+          "wins": 15,
+          "acronym": "",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA",
+          "name": "EDward Gaming",
+          "id": "1847"
+        }
+      },
+      "tournament": {
+        "round": "2",
+        "name": "LPL Summer Top 4",
+        "id": "173"
+      },
+      "dateTime": "2014-08-21T08:00Z",
+      "matchName": "EDward Gaming vs OMG",
+      "winnerId": "1847",
+      "matchId": "3071",
+      "url": "/tourney/match/3071",
+      "maxGames": "5",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "9",
+  "tournamentId": "173",
+  "tournamentName": "LPL Summer Playoffs",
+  "significance": "0"
+}

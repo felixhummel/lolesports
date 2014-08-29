@@ -1,0 +1,17 @@
+#!/usr/bin/env python
+# vim: set fileencoding=utf-8 filetype=python :
+import logging
+logging.basicConfig()
+log = logging.getLogger()
+import envoy
+
+from signal import signal, SIGPIPE, SIG_DFL
+signal(SIGPIPE, SIG_DFL)
+
+c = envoy.run("""grep 'jQuery.extend(Drupal.settings' list.html""")
+s = c.std_out.strip()
+s = s.replace('<script>jQuery.extend(Drupal.settings, ', '')
+s = s.replace(');</script>', '')
+
+with open('list.json', 'w') as f:
+    f.write(s)

@@ -1,0 +1,83 @@
+{
+  "label": "SEA Regional Qualifier - Round 1",
+  "body": [
+    {
+      "bodyTime": "2014-08-04T06:00:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Stage 1",
+  "leagueColor": "#990000",
+  "tbdTime": "0",
+  "blockId": "2175",
+  "dateTime": "2014-08-19T10:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": " ",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game3": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "925",
+          "id": "3904"
+        },
+        "game2": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "925",
+          "id": "3903"
+        },
+        "game1": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "925",
+          "id": "3902"
+        },
+        "game0": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "961",
+          "id": "3784"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 4,
+          "wins": 0,
+          "acronym": "SAJ",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/Saigon-Jokers.png?itok=eblfXu8A",
+          "name": "Saigon Jokers",
+          "id": "961"
+        },
+        "blue": {
+          "losses": 12,
+          "wins": 0,
+          "acronym": "SF5",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/Saigon-Fantastic-Five.png?itok=-IfmTJuJ",
+          "name": "Saigon Fantastic Five",
+          "id": "925"
+        }
+      },
+      "tournament": {
+        "round": "1",
+        "name": "GPL Regional Qualifier",
+        "id": "161"
+      },
+      "dateTime": "2014-08-19T10:00Z",
+      "matchName": "Saigon Fantastic Five vs Saigon Jokers",
+      "winnerId": "925",
+      "matchId": "3029",
+      "url": "/tourney/match/3029",
+      "maxGames": "5",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "10",
+  "tournamentId": "161",
+  "tournamentName": "Southeast Asia Regional Qualifier",
+  "significance": "0"
+}

@@ -1,0 +1,89 @@
+{
+  "label": "SEA Regional Qualifier - Round 2",
+  "body": [
+    {
+      "bodyTime": "2014-08-04T06:15:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Stage 2",
+  "leagueColor": "#990000",
+  "tbdTime": "0",
+  "blockId": "2176",
+  "dateTime": "2014-08-23T10:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": "8255442:37552663:37552664",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game4": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "925",
+          "id": "3947"
+        },
+        "game3": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "996",
+          "id": "3944"
+        },
+        "game2": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "996",
+          "id": "3943"
+        },
+        "game1": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "925",
+          "id": "3942"
+        },
+        "game0": {
+          "hasVod": 0,
+          "noVods": "1",
+          "winnerId": "925",
+          "id": "3785"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 5,
+          "wins": 0,
+          "acronym": "TPS",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/tpsLOGO.png?itok=f8uclo4-",
+          "name": "Azubu Taipei Snipers",
+          "id": "996"
+        },
+        "blue": {
+          "losses": 12,
+          "wins": 0,
+          "acronym": "SF5",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/Saigon-Fantastic-Five.png?itok=-IfmTJuJ",
+          "name": "Saigon Fantastic Five",
+          "id": "925"
+        }
+      },
+      "tournament": {
+        "round": "2",
+        "name": "GPL Regional Qualifier",
+        "id": "161"
+      },
+      "dateTime": "2014-08-23T10:00Z",
+      "matchName": "Saigon Fantastic Five vs Azubu Taipei Snipers",
+      "winnerId": "925",
+      "matchId": "3030",
+      "url": "/tourney/match/3030",
+      "maxGames": "5",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "10",
+  "tournamentId": "161",
+  "tournamentName": "Southeast Asia Regional Qualifier",
+  "significance": "0"
+}

@@ -1,0 +1,132 @@
+{
+  "label": "NA Challenger Summer Playoffs - Quarterfinals",
+  "body": [
+    {
+      "bodyTime": "2014-07-26T00:00:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Playoffs",
+  "leagueColor": "#2c9fc6",
+  "tbdTime": "0",
+  "blockId": "2170",
+  "dateTime": "2014-08-21T19:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": "8226372:37417558:37417559",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game2": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1254",
+          "id": "3929"
+        },
+        "game1": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "2576",
+          "id": "3928"
+        },
+        "game0": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1254",
+          "id": "3208"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 2,
+          "wins": 1,
+          "acronym": "DNL",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/denial3.png?itok=zKQlPKvL",
+          "name": "Denial eSports NA",
+          "id": "2576"
+        },
+        "blue": {
+          "losses": 6,
+          "wins": 3,
+          "acronym": "PRO",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/lolpro-logo-%281%29.png?itok=q5Yh4trr",
+          "name": "Team LolPro",
+          "id": "1254"
+        }
+      },
+      "tournament": {
+        "round": "1",
+        "name": "NA Summer Playoffs",
+        "id": "119"
+      },
+      "dateTime": "2014-08-21T19:00Z",
+      "matchName": "Team LolPro vs Denial eSports NA",
+      "winnerId": "1254",
+      "matchId": "2684",
+      "url": "/tourney/match/2684",
+      "maxGames": "3",
+      "isLive": false,
+      "isFinished": "1"
+    },
+    {
+      "polldaddyId": "8226371:37417556:37417557",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game2": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1258",
+          "id": "3935"
+        },
+        "game1": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "2918",
+          "id": "3933"
+        },
+        "game0": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1258",
+          "id": "3207"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 2,
+          "wins": 1,
+          "acronym": "XDG",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/Vulcun%20Logov2.png?itok=afQTkNnh",
+          "name": "XDG",
+          "id": "2918"
+        },
+        "blue": {
+          "losses": 2,
+          "wins": 7,
+          "acronym": "T8",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/team8-logo-7.2014.png?itok=Bo0wei2E",
+          "name": "Team 8",
+          "id": "1258"
+        }
+      },
+      "tournament": {
+        "round": "1",
+        "name": "NA Summer Playoffs",
+        "id": "119"
+      },
+      "dateTime": "2014-08-21T22:00Z",
+      "matchName": "Team 8 vs XDG",
+      "winnerId": "1258",
+      "matchId": "2683",
+      "url": "/tourney/match/2683",
+      "maxGames": "3",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "6",
+  "tournamentId": "119",
+  "tournamentName": "NA CS Summer Playoffs",
+  "significance": "0"
+}

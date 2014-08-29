@@ -1,0 +1,44 @@
+[
+  {
+    "merge": true,
+    "settings": {
+      "selectmenu": {
+        "disable_for_admin_theme": 1,
+        "ignore_node_add_forms": 1,
+        "ignore_overlay_forms": 1,
+        "ignore_system_settings_forms": 1,
+        "form_id_exceptions": [],
+        "selectmenu_css_whitelist": ""
+      },
+      "jcarousel": {
+        "ajaxPath": "/na-cs/2014/sum2014-playoffs/jcarousel/ajax/views"
+      },
+      "colorbox": {
+        "mobiledevicewidth": "480px",
+        "mobiledetect": true,
+        "opacity": "0.85",
+        "current": "{current} of {total}",
+        "previous": "« Prev",
+        "next": "Next »",
+        "close": "Close",
+        "maxWidth": "98%",
+        "maxHeight": "98%",
+        "fixed": true
+      },
+      "ajaxPageState": {
+        "theme_token": "tCb2dETqxMsV1TPBOb152P6bvVjfS2MguK-HzNEJVzI",
+        "theme": "hotshot"
+      },
+      "pathPrefix": "",
+      "basePath": "/"
+    },
+    "command": "settings"
+  },
+  {
+    "settings": null,
+    "data": "<div class=\"entity entity-field-collection-item field-collection-item-field-video-streams clearfix\">\n  <div class=\"content\">\n    <div class=\"field field-name-field-stream field-type-file field-label-hidden\"><div class=\"field-items\"><div class=\"field-item even\"><div id=\"file-11357\" class=\"file file-video file-video-youtube\">\n\n        <h2 class=\"element-invisible\"><a href=\"/na-cs/2014/sum2014-playoffs/file/ca-vs-t8-2014-na-cs-summer-playoff-finals-g1\">CA vs T8 - 2014 NA CS Summer Playoff Finals G1</a></h2>\n    \n  \n  <div class=\"content\">\n    <div class=\"media-youtube-video media-youtube-1\">\n  <iframe class=\"media-youtube-player\" width=\"940\" height=\"560\" title=\"CA vs T8 - 2014 NA CS Summer Playoff Finals G1\" src=\"//www.youtube.com/embed/7k4TxbLp12Y?wmode=opaque\" frameborder=\"0\" allowfullscreen>Video of CA vs T8 - 2014 NA CS Summer Playoff Finals G1</iframe>\n</div>\n  </div>\n\n  \n</div>\n</div></div></div>  </div>\n</div>\n",
+    "selector": ".panel-col-featured .ajax-video-placeholder",
+    "method": "html",
+    "command": "insert"
+  }
+]

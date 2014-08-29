@@ -1,0 +1,2 @@
+#!/bin/bash
+cat 0200.json | jq '.programming_block | keys'

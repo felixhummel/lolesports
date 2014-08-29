@@ -1,0 +1,5 @@
+#!/bin/bash
+mkdir -p details
+for x in $(cat list); do
+   ./bin/details $x > details/$x
+done

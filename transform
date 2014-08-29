@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+# vim: set fileencoding=utf-8 filetype=python :
+import logging
+logging.basicConfig()
+log = logging.getLogger()
+
+import json
+
+with open('vods.json') as f:
+    d = json.load(f)
+
+
+class Match(object):
+    def __init__(self, d):
+        self.d = d
+
+    @property
+    def id(self):
+        return int(self.d['matchId'])
+
+    @property
+    def games(self):
+        return self.d['gamesInfo'].values()
+
+    @property
+    def hasvods(self):
+        return any(g['hasVod'] != 0 for g in self.games)
+
+
+for block in d['esportsVodArchive']['firstCall']:
+    for md in block['matches']:
+        m = Match(md)
+        if m.hasvods:
+            print m.id

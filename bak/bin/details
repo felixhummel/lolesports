@@ -1,0 +1,5 @@
+#!/bin/bash
+set -exo pipefail
+
+block_id=$1
+curl "http://euw.lolesports.com/api/programming/$block_id.json?expand_matches=1" | jq .

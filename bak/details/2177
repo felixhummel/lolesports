@@ -1,0 +1,77 @@
+{
+  "label": "SEA Regional Qualifier - Round 3",
+  "body": [
+    {
+      "bodyTime": "2014-08-04T06:15:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Finals",
+  "leagueColor": "#990000",
+  "tbdTime": "0",
+  "blockId": "2177",
+  "dateTime": "2014-08-24T10:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": "8262952:37586178:37586179",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game2": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "949",
+          "id": "3964"
+        },
+        "game1": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "949",
+          "id": "3963"
+        },
+        "game0": {
+          "hasVod": 0,
+          "noVods": "1",
+          "winnerId": "949",
+          "id": "3786"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 3,
+          "wins": 0,
+          "acronym": "AHQ",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/ahq__Unicorn_LOGO.png?itok=AWNNB5S4",
+          "name": "Ahq e-Sports Club",
+          "id": "949"
+        },
+        "blue": {
+          "losses": 12,
+          "wins": 0,
+          "acronym": "SF5",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/Saigon-Fantastic-Five.png?itok=-IfmTJuJ",
+          "name": "Saigon Fantastic Five",
+          "id": "925"
+        }
+      },
+      "tournament": {
+        "round": "3",
+        "name": "GPL Regional Qualifier",
+        "id": "161"
+      },
+      "dateTime": "2014-08-24T10:00Z",
+      "matchName": "Saigon Fantastic Five vs Ahq e-Sports Club",
+      "winnerId": "949",
+      "matchId": "3031",
+      "url": "/tourney/match/3031",
+      "maxGames": "5",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "10",
+  "tournamentId": "161",
+  "tournamentName": "Southeast Asia Regional Qualifier",
+  "significance": "0"
+}

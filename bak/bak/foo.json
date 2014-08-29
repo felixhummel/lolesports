@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7"  lang="en" dir="ltr"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7"  lang="en" dir="ltr"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 8]><html class="lt-ie10 lt-ie9"  lang="en" dir="ltr"><![endif]-->
+<!--[if IE 9]><html class="lt-ie10"  lang="en" dir="ltr"><![endif]-->
+<!--[if (gte IE 9)|(gt IEMobile 7)]><!--><html  lang="en" dir="ltr"><!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+<base href="/schedule/" />
+<link rel="shortlink" href="http://euw.lolesports.com/schedule/2014-08-18/0200.json" />
+<link rel="shortcut icon" href="http://euw.lolesports.com/profiles/lolesports_profile/themes/custom/hotshot/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="canonical" href="http://euw.lolesports.com/schedule/2014-08-18/0200.json" />
+<meta name="fragment" content="!" />
+<meta name="description" content="Head to head match information and times scheduled for this week&#039;s Pro League of Legends Esports Matches. " />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+  <title>Schedule | LoL Esports</title>
+
+      <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="cleartype" content="on">
+
+  <link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/sites/default/files/css/css_ogjvJnfni1_P_WxvXAHlUOgCs860b3ip9DNMapcIGeM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/sites/default/files/css/css_TNTVtuN2rYADUtmy3zBY4dOkdG7ZyGnBTExpi9b6lVw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/sites/default/files/css/css_UqOoffvk-FuWbV_8eQT7rRkyNlgHbJYnIPpRiPfBsCw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/sites/default/files/css/css_47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/sites/default/files/css/css_vlWeR1jayHYsF4bwVy6XOGHDD-9HxTQkR9NDLu5hHK8.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/sites/default/files/css/css_ycv2Z812SBFqYpn3iAxP8oktLcVcEskCMshC-Qw5_u4.css" media="all" />
+<style>.show-schedule{display:block;}.show-compact-schedule{display:none;}
+</style>
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/sites/default/files/css/css_D26qk6WEFTn_LPoB86bZ84hd1gnJEGNaHFElpfnxk2Q.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/sites/default/files/css/css_xg106Mvn5grIkFWUKvdELH6dR3s0dTZggDO0SfKOJIM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/profiles/lolesports_profile/themes/custom/hotshot/css/styles.css?napyww" media="all" />
+<link type="text/css" rel="stylesheet" href="http://euw.lolesports.com/profiles/lolesports_profile/themes/custom/hotshot/css/theme/prokit.css?napyww" media="all" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/profiles/lolesports_profile/modules/contrib/jquery_update/replace/jquery/1.7/jquery.min.js'>\x3C/script>")</script>
+<script src="http://euw.lolesports.com/sites/default/files/js/js_X--sqEqPjTj667Iu5kusB1cfnuvBYBd6NARhPpe4yMo.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+<script>window.jQuery.ui || document.write("<script src='/profiles/lolesports_profile/modules/contrib/jquery_update/replace/ui/ui/minified/jquery-ui.min.js'>\x3C/script>")</script>
+<script src="http://euw.lolesports.com/sites/default/files/js/js_VDWL3eDHYRpUek_0lZ9GEyqRpfJXaV9VHZkq0CS5JW8.js"></script>
+<script src="http://euw.lolesports.com/sites/default/files/js/js_NxuHBK1rZUXYZZufyeGW2RR8Zb7dlikYJO7LHXnq9ek.js"></script>
+<script src="http://momentjs.com/downloads/moment.min.js"></script>
+<script src="http://euw.lolesports.com/sites/default/files/js/js_rv_BKYv7yieH0IgHddhWHDC-bWGan8yiJbusyOpr0mw.js"></script>
+<script>var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-37673467-1"]);_gaq.push(["_setDomainName", "lolesports.com"]);
+
+//ENHANCED LINK ATTRIBUTION
+var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();</script>
+<script src="http://euw.lolesports.com/sites/default/files/js/js_aA7U2NO1ekiwTMuO66VampkF-0T_Y8bboe5eFWxL4Ec.js"></script>
+<script>var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+      })();</script>
+<script>
+      googletag.cmd.push(function() {
+      googletag.defineSlot('/9737623/1600x900_video_wrapper', [1600, 900], 'div-gpt-ad-1355857175573-0').addService(googletag.pubads());
+      googletag.defineSlot('/9737623/940x110_video_topper', [940, 110], 'div-gpt-ad-1355857175573-1').addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+      });</script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-sanitize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular-cookies.min.js"></script>
+<script src="http://euw.lolesports.com/sites/default/files/js/js_Y-fTtTyMAC0Jgcdzh_gR4K3Y6ZJf1AqMqYLtN2XOdN8.js"></script>
+<script src="http://euw.lolesports.com/sites/default/files/js/js_nRnmf_iujBUrhUGK8frwFhrShFAM1uJ6AKoTl4NilCM.js"></script>
+<script src="http://euw.lolesports.com/sites/default/files/js/js_Vzlvkl_Htx1wOttNeCNcCTIg0b7cw_PomjoGOd9sKjg.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"hotshot","theme_token":"084ReRv6UfOF2reF-j78L1I3vSzfT17R8YoGP99bMPY","js":{"profiles\/lolesports_profile\/modules\/contrib\/menu_minipanels\/js\/menu_minipanels.js":1,"profiles\/lolesports_profile\/libraries\/qtip\/jquery.qtip-1.0.0-rc3.min.js":1,"https:\/\/account.leagueoflegends.com\/loader.en_US.js":1,"0":1,"1":1,"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.7.1\/jquery.min.js":1,"2":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"https:\/\/ajax.googleapis.com\/ajax\/libs\/jqueryui\/1.8.11\/jquery-ui.min.js":1,"3":1,"profiles\/lolesports_profile\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"profiles\/lolesports_profile\/libraries\/moment\/moment.js":1,"profiles\/lolesports_profile\/modules\/custom\/esports\/esports_display\/js\/ajax-get.js":1,"profiles\/lolesports_profile\/libraries\/colorbox\/jquery.colorbox-min.js":1,"profiles\/lolesports_profile\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"profiles\/lolesports_profile\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.js":1,"profiles\/lolesports_profile\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"profiles\/lolesports_profile\/modules\/contrib\/selectmenu\/js\/jquery.ui.selectmenu\/jquery.ui.selectmenu.js":1,"profiles\/lolesports_profile\/modules\/contrib\/selectmenu\/js\/selectmenu.js":1,"profi

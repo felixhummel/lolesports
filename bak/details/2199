@@ -1,0 +1,77 @@
+{
+  "label": "NA LCS Summer Playoffs - Quarterfinals",
+  "body": [
+    {
+      "bodyTime": "2014-08-05T20:30:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Quarterfinals",
+  "leagueColor": "#1376A4",
+  "tbdTime": "0",
+  "blockId": "2199",
+  "dateTime": "2014-08-24T19:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": "8262863:37585744:37585745",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game2": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "4",
+          "id": "3966"
+        },
+        "game1": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "4",
+          "id": "3965"
+        },
+        "game0": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "4",
+          "id": "3805"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 3,
+          "wins": 0,
+          "acronym": "CLG",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/600px-Clg_logo2.png?itok=9IU_jfeo",
+          "name": "Counter Logic Gaming",
+          "id": "2"
+        },
+        "blue": {
+          "losses": 0,
+          "wins": 3,
+          "acronym": "CRS",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/CurseLogos_RGB.png?itok=U7znOoOr",
+          "name": "Curse",
+          "id": "4"
+        }
+      },
+      "tournament": {
+        "round": "1",
+        "name": "NA LCS Summer Playoffs",
+        "id": "168"
+      },
+      "dateTime": "2014-08-24T19:00Z",
+      "matchName": "Curse vs Counter Logic Gaming",
+      "winnerId": "4",
+      "matchId": "3049",
+      "url": "/tourney/match/3049",
+      "maxGames": "5",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "1",
+  "tournamentId": "168",
+  "tournamentName": "North America Summer Playoffs",
+  "significance": "0"
+}

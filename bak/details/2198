@@ -1,0 +1,83 @@
+{
+  "label": "NA LCS Summer Playoffs - Quarterfinals",
+  "body": [
+    {
+      "bodyTime": "2014-08-05T20:30:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Quarterfinals",
+  "leagueColor": "#1376A4",
+  "tbdTime": "0",
+  "blockId": "2198",
+  "dateTime": "2014-08-23T19:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": "8262810:37585515:37585516",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game3": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1",
+          "id": "3953"
+        },
+        "game2": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1",
+          "id": "3949"
+        },
+        "game1": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "1",
+          "id": "3948"
+        },
+        "game0": {
+          "hasVod": 1,
+          "noVods": "0",
+          "winnerId": "3",
+          "id": "3806"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 3,
+          "wins": 1,
+          "acronym": "DIG",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/dig_logo_1.png?itok=fuPYPCR5",
+          "name": "Team Dignitas",
+          "id": "3"
+        },
+        "blue": {
+          "losses": 1,
+          "wins": 3,
+          "acronym": "TSM",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/TSM%20logovector%20-white.png?itok=V30tXLGE",
+          "name": "Team SoloMid",
+          "id": "1"
+        }
+      },
+      "tournament": {
+        "round": "1",
+        "name": "NA LCS Summer Playoffs",
+        "id": "168"
+      },
+      "dateTime": "2014-08-23T19:00Z",
+      "matchName": "Team SoloMid vs Team Dignitas",
+      "winnerId": "1",
+      "matchId": "3050",
+      "url": "/tourney/match/3050",
+      "maxGames": "5",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "1",
+  "tournamentId": "168",
+  "tournamentName": "North America Summer Playoffs",
+  "significance": "0"
+}

@@ -1,0 +1,77 @@
+{
+  "label": "LPL Summer Top 4 - Round 1",
+  "body": [
+    {
+      "bodyTime": "2014-08-19T22:45:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Top 4",
+  "leagueColor": "#666666",
+  "tbdTime": "0",
+  "blockId": "2213",
+  "dateTime": "2014-08-19T08:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": " ",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game2": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "1847",
+          "id": "3919"
+        },
+        "game1": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "1847",
+          "id": "3918"
+        },
+        "game0": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "1847",
+          "id": "3911"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 23,
+          "wins": 15,
+          "acronym": "",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/EDG-logo_0.png?itok=j-PhZ4XA",
+          "name": "EDward Gaming",
+          "id": "1847"
+        },
+        "blue": {
+          "losses": 25,
+          "wins": 9,
+          "acronym": "",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/LGD.png?itok=XCI2p9bw",
+          "name": "LGD GAMING",
+          "id": "1850"
+        }
+      },
+      "tournament": {
+        "round": "1",
+        "name": "LPL Summer Top 4",
+        "id": "173"
+      },
+      "dateTime": "2014-08-19T08:00Z",
+      "matchName": "LGD GAMING vs EDward Gaming",
+      "winnerId": "1847",
+      "matchId": "3069",
+      "url": "/tourney/match/3069",
+      "maxGames": "5",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "9",
+  "tournamentId": "173",
+  "tournamentName": "LPL Summer Playoffs",
+  "significance": "0"
+}

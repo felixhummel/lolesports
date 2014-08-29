@@ -1,0 +1,21 @@
+{
+  "label": "LCS Preview Show - NA Playoffs",
+  "body": [
+    {
+      "bodyTime": "2014-08-23T18:30:00+00:00",
+      "body": "<center>\r\n<a href=\"/lcspreview\"><img src=\"/sites/default/files/styles/full_width_scale/public/LCSPreviewShow_WebsiteBanner_0.jpg?itok=cSPApE7v\"></a></center>",
+      "bodyTitle": null
+    }
+  ],
+  "week": 0,
+  "leagueColor": null,
+  "tbdTime": "0",
+  "blockId": "2182",
+  "dateTime": "2014-08-23T18:30:00+00:00",
+  "tickets": " ",
+  "matches": [],
+  "leagueId": " ",
+  "tournamentId": " ",
+  "tournamentName": " ",
+  "significance": "0"
+}

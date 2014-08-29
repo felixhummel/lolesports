@@ -1,0 +1,65 @@
+{
+    "blockId": "2203", 
+    "body": [
+        {
+            "body": null, 
+            "bodyTime": "2014-08-06T18:00:00+00:00", 
+            "bodyTitle": null
+        }
+    ], 
+    "dateTime": "2014-08-30T00:00:00+00:00", 
+    "label": "IWC PAX Prime - Finals", 
+    "leagueColor": "#adadad", 
+    "leagueId": "11", 
+    "matches": [
+        {
+            "contestants": {
+                "blue": {
+                    "acronym": "PEX", 
+                    "id": "3149", 
+                    "logoURL": "/sites/default/files/styles/grid_medium_square/public/LogoPex_0.png?itok=Tx5VbaA0", 
+                    "losses": 0, 
+                    "name": "PEX", 
+                    "wins": 0
+                }, 
+                "red": {
+                    "acronym": "KBM", 
+                    "id": "3150", 
+                    "logoURL": "/sites/default/files/styles/grid_medium_square/public/KaBuM%21-E-Sport_900px-logo_0.png?itok=rKT7ajp-", 
+                    "losses": 0, 
+                    "name": "KaBuM e-Sports", 
+                    "wins": 0
+                }
+            }, 
+            "dateTime": "2014-08-30T00:00Z", 
+            "gamesInfo": {
+                "game0": {
+                    "hasVod": 0, 
+                    "id": "3796", 
+                    "noVods": "0", 
+                    "winnerId": ""
+                }
+            }, 
+            "isFinished": "0", 
+            "isLive": false, 
+            "liveStreams": false, 
+            "matchId": "3041", 
+            "matchName": "PEX vs KaBuM e-Sports", 
+            "maxGames": "5", 
+            "polldaddyId": "8230410:37435115:37435116", 
+            "tournament": {
+                "id": "166", 
+                "name": "IWC PAX Prime", 
+                "round": "1"
+            }, 
+            "url": "/tourney/match/3041", 
+            "winnerId": ""
+        }
+    ], 
+    "significance": "0", 
+    "tbdTime": "0", 
+    "tickets": " ", 
+    "tournamentId": "166", 
+    "tournamentName": "IWC PAX Prime", 
+    "week": "Finals"
+}

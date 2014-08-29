@@ -1,0 +1,77 @@
+{
+  "label": "LPL Summer Top 4 - Loser's Bracket Round 1",
+  "body": [
+    {
+      "bodyTime": "2014-08-19T23:00:00+00:00",
+      "body": null,
+      "bodyTitle": null
+    }
+  ],
+  "week": "Top 4",
+  "leagueColor": "#666666",
+  "tbdTime": "0",
+  "blockId": "2216",
+  "dateTime": "2014-08-22T08:00:00+00:00",
+  "tickets": " ",
+  "matches": [
+    {
+      "polldaddyId": "8257114:37560168:37560169",
+      "liveStreams": false,
+      "gamesInfo": {
+        "game2": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "687",
+          "id": "3937"
+        },
+        "game1": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "687",
+          "id": "3936"
+        },
+        "game0": {
+          "hasVod": 0,
+          "noVods": "0",
+          "winnerId": "687",
+          "id": "3914"
+        }
+      },
+      "contestants": {
+        "red": {
+          "losses": 25,
+          "wins": 9,
+          "acronym": "",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/LGD.png?itok=XCI2p9bw",
+          "name": "LGD GAMING",
+          "id": "1850"
+        },
+        "blue": {
+          "losses": 27,
+          "wins": 14,
+          "acronym": "",
+          "logoURL": "/sites/default/files/styles/grid_medium_square/public/royal%281%29_0.png?itok=jkY3rxvV",
+          "name": "Royal Club",
+          "id": "687"
+        }
+      },
+      "tournament": {
+        "round": "1",
+        "name": "LPL Summer Top 4",
+        "id": "173"
+      },
+      "dateTime": "2014-08-22T08:00Z",
+      "matchName": "Royal Club vs LGD GAMING",
+      "winnerId": "687",
+      "matchId": "3072",
+      "url": "/tourney/match/3072",
+      "maxGames": "5",
+      "isLive": false,
+      "isFinished": "1"
+    }
+  ],
+  "leagueId": "9",
+  "tournamentId": "173",
+  "tournamentName": "LPL Summer Playoffs",
+  "significance": "0"
+}

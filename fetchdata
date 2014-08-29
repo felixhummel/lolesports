@@ -1,0 +1,20 @@
+#!/usr/bin/env python
+# vim: set fileencoding=utf-8 filetype=python :
+import logging
+logging.basicConfig()
+log = logging.getLogger()
+import sys
+
+import requests
+
+CACHED = False
+URL = 'http://euw.lolesports.com/vods/'
+
+if CACHED:
+    data = open('vods.html').read()
+else:
+    resp = requests.get(URL)
+    if resp.status_code != 200:
+        log.warn('Could not fetch')
+    with open('vods.html', 'w') as f:
+        f.write(resp.content)
