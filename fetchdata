@@ -11,10 +11,10 @@ CACHED = False
 URL = 'http://euw.lolesports.com/vods/'
 
 if CACHED:
-    data = open('vods.html').read()
+    data = open('list.html').read()
 else:
     resp = requests.get(URL)
     if resp.status_code != 200:
         log.warn('Could not fetch')
-    with open('vods.html', 'w') as f:
+    with open('list.html', 'w') as f:
         f.write(resp.content)
