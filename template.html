@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>LOL VODs</title>
+    <style type="text/css" media="screen">
+      body {
+        color: #999;
+        background-color: black;
+        line-height: 1.5em;
+      }
+      a {
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    {% for m in matches %}
+    <p>{{m.name}} (best of {{m.max_games}})</p>
+    <ul>
+      {% for g in m.games %}
+      <li>
+        <a href="{{g.url}}">{{g.txt}}</a>
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- endfor %}
+  </body>
+</html>
+

@@ -4,6 +4,8 @@ import json
 import logging
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
+import random
+import string
 
 import envoy
 
@@ -37,8 +39,10 @@ class Match(object):
     Just a container for games, but has the date and the maxGames.
     """
     def __init__(self, d):
-        self.d = d
-        self.max_games = d['maxGames']
+        self.match_id = d['matchId']
+        self.name = d['matchName']
+        self.tournament_id = int(d['tournament']['id'])
+        self.max_games = int(d['maxGames'])
         self.games = []
         for game_no_str, game_info in d['gamesInfo'].iteritems():
             g = Game()
@@ -52,20 +56,36 @@ class Match(object):
             g.blue = d['contestants']['blue']['name']
             g.red = d['contestants']['red']['name']
             self.games.append(g)
+        if len(self.games) < self.max_games:
+            for i in range(len(self.games), self.max_games):
+                dummy_game = Game()
+                dummy_game.tournament_id = int(d['tournament']['id'])
+                dummy_game.match_id = int(d['matchId'])
+                dummy_game.number = i
+                dummy_game.blue = d['contestants']['blue']['name']
+                dummy_game.red = d['contestants']['red']['name']
+                dummy_game.hasvod = True
+                # http://www.youtube.com/watch?v=Rs8SttblARc
+                yt_fake = ''.join(
+                    random.choice(string.ascii_letters + string.digits) for i in range(11)
+                )
+                dummy_game.url = 'http://www.youtube.com/watch?v='\
+                    + yt_fake
+                self.games.append(dummy_game)
         self.hasvods = any(g.hasvod for g in self.games)
 
 
-class Games(list):
+class Matches(list):
     def __init__(self, d):
-        super(Games, self).__init__()
+        super(Matches, self).__init__()
         for block in d['esportsVodArchive']['firstCall']:
             for md in block['matches']:
                 m = Match(md)
                 if m.hasvods:
-                    for g in m.games:
-                        self.append(g)
+                    self.append(m)
         from operator import attrgetter
-        self.sort(key=attrgetter('number'))
+        for m in self:
+            m.games.sort(key=attrgetter('number'))
         self.sort(key=attrgetter('match_id'))
         self.sort(key=attrgetter('tournament_id'))
 
@@ -75,9 +95,9 @@ class Games(list):
     def tohtml(self):
         import jinja2
         env = jinja2.Environment(loader=jinja2.FileSystemLoader('.'))
-        template = env.get_template('x.html')
-        return template.render(games=self)
+        template = env.get_template('template.html')
+        return template.render(matches=self)
 
 
 #print Games(d)
-print Games(d).tohtml()
+print Matches(d).tohtml()
