@@ -1,7 +1,9 @@
-.PHONY: db
+.PHONY: show
 
-db: list.json
-	echo 'jo'
+show: games.html
+	firefox games.html
+games.html:
+	./transform > games.html
 list.json: list.html
 	./extract
 list.html:
