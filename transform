@@ -1,34 +1,83 @@
 #!/usr/bin/env python
 # vim: set fileencoding=utf-8 filetype=python :
+import json
 import logging
-logging.basicConfig()
+logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 
-import json
+import envoy
 
-with open('vods.json') as f:
+with open('list.json') as f:
     d = json.load(f)
 
 
+class Tournament(object):
+    pass
+
+
+class Game(object):
+
+    @classmethod
+    def get_game_url(cls, game_id):
+        resp = envoy.run('./get_url.sh %s' % game_id)
+        if resp.status_code != 0:
+            log.warn('could not get url for game %s' % game_id)
+        return resp.std_out.strip()
+
+    def __repr__(self):
+        return '%(tournament_id)d/%(match_id)d/%(number)d %(blue)s vs. %(red)s -- %(url)s' % self.__dict__
+
+    @property
+    def txt(self):
+        return '%(tournament_id)d/%(match_id)d/%(number)d %(blue)s vs. %(red)s' % self.__dict__
+
+
 class Match(object):
+    """
+    Just a container for games, but has the date and the maxGames.
+    """
     def __init__(self, d):
         self.d = d
+        self.max_games = d['maxGames']
+        self.games = []
+        for game_no_str, game_info in d['gamesInfo'].iteritems():
+            g = Game()
+            g.tournament_id = int(d['tournament']['id'])
+            g.match_id = int(d['matchId'])
+            g.number = int(game_no_str.replace('game', ''))
+            g.id = int(game_info['id'])
+            g.hasvod = game_info['hasVod']
+            g.round = d['tournament']['round']
+            g.url = Game.get_game_url(g.id)
+            g.blue = d['contestants']['blue']['name']
+            g.red = d['contestants']['red']['name']
+            self.games.append(g)
+        self.hasvods = any(g.hasvod for g in self.games)
 
-    @property
-    def id(self):
-        return int(self.d['matchId'])
 
-    @property
-    def games(self):
-        return self.d['gamesInfo'].values()
+class Games(list):
+    def __init__(self, d):
+        super(Games, self).__init__()
+        for block in d['esportsVodArchive']['firstCall']:
+            for md in block['matches']:
+                m = Match(md)
+                if m.hasvods:
+                    for g in m.games:
+                        self.append(g)
+        from operator import attrgetter
+        self.sort(key=attrgetter('number'))
+        self.sort(key=attrgetter('match_id'))
+        self.sort(key=attrgetter('tournament_id'))
 
-    @property
-    def hasvods(self):
-        return any(g['hasVod'] != 0 for g in self.games)
+    def __repr__(self):
+        return '\n'.join(map(str, self))
+
+    def tohtml(self):
+        import jinja2
+        env = jinja2.Environment(loader=jinja2.FileSystemLoader('.'))
+        template = env.get_template('x.html')
+        return template.render(games=self)
 
 
-for block in d['esportsVodArchive']['firstCall']:
-    for md in block['matches']:
-        m = Match(md)
-        if m.hasvods:
-            print m.id
+#print Games(d)
+print Games(d).tohtml()

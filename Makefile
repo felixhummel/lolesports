@@ -1,4 +1,8 @@
-list.json:
+.PHONY: db
+
+db: list.json
+	echo 'jo'
+list.json: list.html
 	./extract
 list.html:
 	./fetchdata
