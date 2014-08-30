@@ -6,6 +6,8 @@ logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger()
 import random
 import string
+import urlparse
+import urllib
 
 import envoy
 
@@ -18,13 +20,29 @@ class Tournament(object):
 
 
 class Game(object):
+    # http://stackoverflow.com/questions/23145257/is-there-a-way-to-link-someone-to-a-youtube-video-in-hd-1080p-quality
+    QUALITY = 'hd720'
 
     @classmethod
     def get_game_url(cls, game_id):
         resp = envoy.run('./get_url.sh %s' % game_id)
         if resp.status_code != 0:
             log.warn('could not get url for game %s' % game_id)
-        return resp.std_out.strip()
+            return None
+        url = resp.std_out.strip()
+        if url in ['null', '']:
+            return None
+        o = urlparse.urlparse(url)
+        # ParseResult(scheme='http', netloc='www.youtube.com', path='/watch', params='', query='v=Rs8SttblARc', fragment='')
+        d = urlparse.parse_qs(o.query)
+        vid_id = d['v'][0],  # parse_qs returns key -> list of values
+        q = urllib.urlencode(dict(
+            vq=cls.QUALITY
+        ))
+        new_url = urlparse.urlunparse(
+            ('http', 'www.youtube.com', '/embed/%s' % vid_id, '', q, '')
+        )
+        return new_url
 
     def __repr__(self):
         return '%(tournament_id)d/%(match_id)d/%(number)d %(blue)s vs. %(red)s -- %(url)s' % self.__dict__
