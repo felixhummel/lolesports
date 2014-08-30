@@ -2,7 +2,7 @@
 # vim: set fileencoding=utf-8 filetype=python :
 import json
 import logging
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 log = logging.getLogger()
 import random
 import string
@@ -24,25 +24,34 @@ class Game(object):
     QUALITY = 'hd720'
 
     @classmethod
-    def get_game_url(cls, game_id):
+    def _get_game_url(cls, game_id):
         resp = envoy.run('./get_url.sh %s' % game_id)
         if resp.status_code != 0:
             log.warn('could not get url for game %s' % game_id)
             return None
-        url = resp.std_out.strip()
+        return resp.std_out.strip()
+
+    @property
+    def url(self):
+        url = self._url
         if url in ['null', '']:
-            return None
+                return None
+        log.debug(url)
         o = urlparse.urlparse(url)
         # ParseResult(scheme='http', netloc='www.youtube.com', path='/watch', params='', query='v=Rs8SttblARc', fragment='')
         d = urlparse.parse_qs(o.query)
         vid_id = d['v'][0],  # parse_qs returns key -> list of values
         q = urllib.urlencode(dict(
-            vq=cls.QUALITY
+            vq=self.QUALITY
         ))
         new_url = urlparse.urlunparse(
             ('http', 'www.youtube.com', '/embed/%s' % vid_id, '', q, '')
         )
         return new_url
+
+    @property
+    def yt_url(self):
+        return self._url
 
     def __repr__(self):
         return '%(tournament_id)d/%(match_id)d/%(number)d %(blue)s vs. %(red)s -- %(url)s' % self.__dict__
@@ -70,7 +79,7 @@ class Match(object):
             g.id = int(game_info['id'])
             g.hasvod = game_info['hasVod']
             g.round = d['tournament']['round']
-            g.url = Game.get_game_url(g.id)
+            g._url = Game._get_game_url(g.id)
             g.blue = d['contestants']['blue']['name']
             g.red = d['contestants']['red']['name']
             self.games.append(g)
@@ -87,7 +96,7 @@ class Match(object):
                 yt_fake = ''.join(
                     random.choice(string.ascii_letters + string.digits) for i in range(11)
                 )
-                dummy_game.url = 'http://www.youtube.com/watch?v='\
+                dummy_game._url = 'http://www.youtube.com/watch?v='\
                     + yt_fake
                 self.games.append(dummy_game)
         self.hasvods = any(g.hasvod for g in self.games)
