@@ -1,2 +1,5 @@
 .py[co]
 /vods/*.json
+/games.html
+/list.html
+/list.json
