@@ -13,5 +13,4 @@ s = c.std_out.strip()
 s = s.replace('<script>jQuery.extend(Drupal.settings, ', '')
 s = s.replace(');</script>', '')
 
-with open('list.json', 'w') as f:
-    f.write(s)
+print s

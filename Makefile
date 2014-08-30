@@ -2,12 +2,12 @@
 
 show: games.html
 	firefox games.html
-games.html:
+games.html: list.json
 	./transform > games.html
 list.json: list.html
-	./extract
+	./extract > list.json
 list.html:
-	./fetchdata
+	./fetchdata > list.html
 
 clean:
-	rm list.html list.json
+	rm list.html list.json games.html

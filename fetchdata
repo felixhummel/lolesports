@@ -7,14 +7,9 @@ import sys
 
 import requests
 
-CACHED = False
 URL = 'http://euw.lolesports.com/vods/'
 
-if CACHED:
-    data = open('list.html').read()
-else:
-    resp = requests.get(URL)
-    if resp.status_code != 200:
-        log.warn('Could not fetch')
-    with open('list.html', 'w') as f:
-        f.write(resp.content)
+resp = requests.get(URL)
+if resp.status_code != 200:
+    log.warn('Could not fetch')
+print resp.content
